@@ -160,3 +160,11 @@ transform(myset.begin(), myset.end(),
           back_inserter(vec), //destination
           bind(multiplies<int>(), placeholders::_1, 10)); //functor
 // 1st parameter of multiplies<int>() is substituted with mysets element
+*/
+
+#include<iostream>
+#include<thread>
+#include<string>
+#include<vector>
+#include<algorithm>
+using namespace std;
