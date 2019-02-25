@@ -5,7 +5,7 @@
 ##include<set>
 
 int main() {
-set<int> myset = {2, 3, 4, 5};
+set<int> myset = {2, 3, 4, 5}; // creating a set
 vector<int> vec;
 
 int x = multiplies<int>()(3,4);
